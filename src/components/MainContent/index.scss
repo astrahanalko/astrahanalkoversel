@@ -1,0 +1,38 @@
+.MainContent {
+    > h1 {
+        margin-bottom: 3vw;
+        text-align: center;
+    }
+    > h2 {
+        margin-bottom: 1.5vw;
+        text-align: center;
+    }
+    &__content {
+        display: grid;
+        grid-gap: 1vw;
+        grid-template-columns: 2fr 1fr;
+        margin-bottom: 4vw;
+        > img {
+            width: 100%;
+            border-radius: 1vw;
+        }
+        ul {
+            margin-left: 2vw;
+        }
+        &-left {
+            grid-template-columns: 1fr 2fr;
+        }
+        @media(max-width: 1024px) {
+            grid-template-columns: 1fr 1fr;
+            &-left {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media(max-width: 640px) {
+            grid-template-columns: 1fr;
+            &-left {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}

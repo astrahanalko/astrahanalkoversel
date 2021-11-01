@@ -1,0 +1,19 @@
+.Address {
+  > p {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3vw;
+    margin-bottom: 5vw;
+  }
+  @media(max-width: 1024px) {
+    > p {
+      font-size: 5vw;
+    }
+  }
+  @media(max-width: 1024px) {
+    > p {
+      font-size: 7vw;
+      margin-bottom: 6vw;
+    }
+  }
+}

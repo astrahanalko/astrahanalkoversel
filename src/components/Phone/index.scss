@@ -1,0 +1,116 @@
+.Phone {
+  &__header {
+    position: absolute;
+    top: calc(50% - 2.5vw);
+    left: calc(50% - 15.5vw);
+    & .Phone__content {
+      > p {
+        text-align: center;
+        > a {
+          color: rgba(black, 1);
+          transition: 1s ease-in-out;
+          text-shadow: .1vw .2vw .3vw rgba(#fff, 1),
+                      -.1vw -.2vw .3vw rgba(#fff, 1), 
+                      -.1vw .2vw .3vw rgba(#fff, 1), 
+                      .1vw -.2vw .3vw rgba(#fff, 1);
+          &:hover {
+            color: antiquewhite;
+            text-shadow: .1vw .2vw .3vw rgba(#000, 1),
+                    -.1vw -.2vw .3vw rgba(#000, 1), 
+                    -.1vw .2vw .3vw rgba(#000, 1), 
+                    .1vw -.2vw .3vw rgba(#000, 1);
+          }
+        }
+      }
+    }
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vw;
+    & .Phone__content {
+      > p > a {
+        color: antiquewhite;
+        transition: 1s ease-in-out;
+        &:hover {
+          color: rgba(brown, .7);
+        }
+      }
+    }
+  }
+  &__content {
+    text-align: center;
+    > p {
+      font-size: 3vw;
+      font-weight: bold;
+      > a {
+        text-decoration: none;
+        letter-spacing: .5vw;
+        text-shadow: .1vw .2vw .3vw rgba(#000, 1),
+                    -.1vw -.2vw .3vw rgba(#000, 1), 
+                    -.1vw .2vw .3vw rgba(#000, 1), 
+                    .1vw -.2vw .3vw rgba(#000, 1);
+      }
+    }
+  }
+  &__text {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 'text phone';
+    grid-gap: 1vw;
+    margin-top: 1.5vw;
+    > p {
+      grid-area: text;
+      text-align: right;
+      color: red;
+      font-weight: bold;
+    }
+    & .Phone__content {
+      grid-area: phone;
+      text-align: left;
+      > p {
+        font-size: 1.5vw;
+        > a {
+          text-shadow: none ;
+          letter-spacing: normal;
+          color: red;
+        }
+      }
+    }
+  }
+  @media(max-width: 1024px) {
+    &__header {
+      left: calc(50% - 26.5vw);
+    }
+    &__content {
+      > p {
+        font-size: 6vw;
+      }
+    }
+    &__text {
+      & .Phone__content {
+        > p {
+        font-size: 2.5vw;
+        }
+      }
+    }
+  }
+  @media(max-width: 640px) {
+    &__header {
+      top: calc(50% - 6.5vw);
+      left: calc(50% - 48.5vw);
+    }
+    &__content {
+      > p {
+        font-size: 10vw;
+      }
+    }
+    &__text {
+      & .Phone__content {
+        > p {
+        font-size: 3vw;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.Social {
+  &__header {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    > ul > li > a {
+      > svg {
+        color: rgba(#000, 1);
+        &:hover {
+          color: rgba(brown, 1);
+        }
+
+      }
+    }
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+    > ul > li > a {
+      > svg {
+        color: antiquewhite;
+        // color: rgba(#000, 1);
+        &:hover {
+          color: rgba(brown, 1);
+        }
+      }
+    }
+  }
+  > ul {
+    width: 13vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    > li {
+      list-style: none;
+      > a {
+        font-size: 3vw;
+        > svg {
+          transition: 1s ease-in-out;
+        }
+      }
+    }
+    @media(max-width: 1024px) {
+      width: 26vw;
+      > li > a {
+        font-size: 5vw;
+      }
+    }
+    @media(max-width: 640px) {
+      width: 39vw;
+      > li > a {
+        font-size: 7vw;
+      }
+    }
+  }
+}
