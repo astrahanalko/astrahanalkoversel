@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/astrahanalko/static/css/main.0c0b0132.chunk.css",
+    "main.js": "/astrahanalko/static/js/main.9d90aba7.chunk.js",
+    "main.js.map": "/astrahanalko/static/js/main.9d90aba7.chunk.js.map",
+    "runtime-main.js": "/astrahanalko/static/js/runtime-main.52059d5d.js",
+    "runtime-main.js.map": "/astrahanalko/static/js/runtime-main.52059d5d.js.map",
+    "static/js/2.14ca2b4d.chunk.js": "/astrahanalko/static/js/2.14ca2b4d.chunk.js",
+    "static/js/2.14ca2b4d.chunk.js.map": "/astrahanalko/static/js/2.14ca2b4d.chunk.js.map",
+    "static/js/3.7ac3bac9.chunk.js": "/astrahanalko/static/js/3.7ac3bac9.chunk.js",
+    "static/js/3.7ac3bac9.chunk.js.map": "/astrahanalko/static/js/3.7ac3bac9.chunk.js.map",
+    "index.html": "/astrahanalko/index.html",
+    "static/css/main.0c0b0132.chunk.css.map": "/astrahanalko/static/css/main.0c0b0132.chunk.css.map",
+    "static/js/2.14ca2b4d.chunk.js.LICENSE.txt": "/astrahanalko/static/js/2.14ca2b4d.chunk.js.LICENSE.txt",
+    "static/media/850c7b8f0a3746788ed3f79b540af395.c2cbabfb.jpg": "/astrahanalko/static/media/850c7b8f0a3746788ed3f79b540af395.c2cbabfb.jpg",
+    "static/media/beer.e9776a22.jpg": "/astrahanalko/static/media/beer.e9776a22.jpg",
+    "static/media/i.89f66590.jpg": "/astrahanalko/static/media/i.89f66590.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52059d5d.js",
+    "static/js/2.14ca2b4d.chunk.js",
+    "static/css/main.0c0b0132.chunk.css",
+    "static/js/main.9d90aba7.chunk.js"
+  ]
+}
